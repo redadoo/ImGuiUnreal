@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\source\\unrealimggui\\private\\imguiactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\x64\\unrealimgguieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealimggui\\definitions.unrealimggui.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\source\\unrealimggui\\public\\imguiactor.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealimggui\\uht\\imguiactor.generated.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\plugins\\imgui\\source\\thirdparty\\imguilibrary\\include\\imgui.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\plugins\\imgui\\source\\thirdparty\\imguilibrary\\include\\imconfig.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\assert.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

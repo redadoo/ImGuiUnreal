@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealimggui\\uht\\test.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\x64\\unrealimgguieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealimggui\\definitions.unrealimggui.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\source\\unrealimggui\\public\\test.h",
+            "c:\\users\\edoar\\desktop\\github\\imguiunreal\\unrealimggui\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealimggui\\uht\\test.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

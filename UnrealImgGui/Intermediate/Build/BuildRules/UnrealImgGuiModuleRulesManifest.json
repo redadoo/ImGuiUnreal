@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\edoar\\Desktop\\Github\\ImGuiUnreal\\UnrealImgGui\\Source\\UnrealImgGui\\UnrealImgGui.Build.cs",
+		"C:\\Users\\edoar\\Desktop\\Github\\ImGuiUnreal\\UnrealImgGui\\Plugins\\ImGui\\Source\\ImGui\\ImGui.Build.cs",
+		"C:\\Users\\edoar\\Desktop\\Github\\ImGuiUnreal\\UnrealImgGui\\Plugins\\ImGui\\Source\\ThirdParty\\ImGuiLibrary\\ImGuiLibrary.Build.cs",
+		"C:\\Users\\edoar\\Desktop\\Github\\ImGuiUnreal\\UnrealImgGui\\Source\\UnrealImgGui.Target.cs",
+		"C:\\Users\\edoar\\Desktop\\Github\\ImGuiUnreal\\UnrealImgGui\\Source\\UnrealImgGuiEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

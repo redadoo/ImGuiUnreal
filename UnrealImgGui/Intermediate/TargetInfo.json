@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealImgGui",
+			"Path": "..\\Source\\UnrealImgGui.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealImgGuiEditor",
+			"Path": "..\\Source\\UnrealImgGuiEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

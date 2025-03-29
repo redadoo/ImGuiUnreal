@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealImgGui.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealImgGui.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealImgGuiEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultImGui.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImGui">
+      <UniqueIdentifier>{DA4D6604-C84A-39DE-B4DC-ACFC72A994BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImGui\Source">
+      <UniqueIdentifier>{D5BA1A8B-C203-33ED-9B7C-5C2A8C59793E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImGui\Source\ImGui">
+      <UniqueIdentifier>{38CFEC64-F8EF-30AF-AFB2-9857BBE8A2C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImGui\Source\ImGui\ImGui.Build.cs">
+      <Filter>Plugins\ImGui\Source\ImGui</Filter>
+    </None>
+    <Filter Include="Plugins\ImGui\Source\ImGui\Private">
+      <UniqueIdentifier>{F77C50B2-429A-3B05-ABE7-85BDCC8119B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiContextManager.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiContextManager.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiContextProxy.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiContextProxy.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDelegates.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDelegatesContainer.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDelegatesContainer.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDemo.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDemo.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDrawData.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiDrawData.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiImplementation.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiImplementation.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInputHandler.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInputHandlerFactory.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInputHandlerFactory.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInputState.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInputState.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInteroperability.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiInteroperability.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModule.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleCommands.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleCommands.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleDebug.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleManager.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleManager.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleSettings.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiModuleSettings.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\ImGuiTextureHandle.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\TextureManager.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\TextureManager.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\VersionCompatibility.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ImGui\Source\ImGui\Private\Editor">
+      <UniqueIdentifier>{A6303082-E211-3501-BD4C-A03D4328422E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiCanvasSizeInfoCustomization.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiCanvasSizeInfoCustomization.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiEditor.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiEditor.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiKeyInfoCustomization.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Editor\ImGuiKeyInfoCustomization.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Editor</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ImGui\Source\ImGui\Private\Utilities">
+      <UniqueIdentifier>{5D626B51-3FA4-3EF3-99F9-B25AEF19627B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\Arrays.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\DebugExecBindings.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\DebugExecBindings.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\Range.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\RedirectingHandle.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\WorldContext.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\WorldContext.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Utilities\WorldContextIndex.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Utilities</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ImGui\Source\ImGui\Private\Widgets">
+      <UniqueIdentifier>{5E5B080A-5956-3ED7-BACA-A74A93DAD2CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiCanvasControl.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiCanvasControl.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiLayout.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiLayout.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiWidget.cpp">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Private\Widgets\SImGuiWidget.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ImGui\Source\ImGui\Public">
+      <UniqueIdentifier>{CA48EE22-356A-37F7-A193-FCFEA3F96EAB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Public\ImGuiDelegates.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Public\ImGuiInputHandler.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Public\ImGuiModule.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Public\ImGuiModuleProperties.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ImGui\Public\ImGuiTextureHandle.h">
+      <Filter>Plugins\ImGui\Source\ImGui\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\ImGui\ImGui.uplugin">
+      <Filter>Plugins\ImGui</Filter>
+    </None>
+    <Filter Include="Plugins\ImGui\Resources">
+      <UniqueIdentifier>{07DBBE55-D0CD-3005-9DB8-91C06CD3770A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImGui\Resources\Icon128.png">
+      <Filter>Plugins\ImGui\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\ImGui\Source\ThirdParty">
+      <UniqueIdentifier>{75F4AB88-80EC-381C-84D1-3771E29969C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImGui\Source\ThirdParty\ImGuiLibrary">
+      <UniqueIdentifier>{A0B62BE3-1126-3634-809E-B784E4432D0F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\ImGuiLibrary.Build.cs">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\ImGuiLibrary.tps">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\LICENSE.txt">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs">
+      <UniqueIdentifier>{78E265A8-4B03-3E57-830C-41E47C58B5CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\BACKENDS.md">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\CHANGELOG.txt">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\EXAMPLES.md">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\FAQ.md">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\FONTS.md">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\README.md">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs\TODO.txt">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Docs</Filter>
+    </None>
+    <Filter Include="Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include">
+      <UniqueIdentifier>{D2CAC136-B44D-33C5-8464-AAAE775FA913}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include\imconfig.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include\imgui.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include\imgui_internal.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include\imstb_textedit.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Include</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private">
+      <UniqueIdentifier>{CE18CE5E-D7C2-3122-8252-C4ED669B1C3B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imgui.cpp">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imgui_demo.cpp">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imgui_draw.cpp">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imgui_tables.cpp">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imgui_widgets.cpp">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imstb_rectpack.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private\imstb_truetype.h">
+      <Filter>Plugins\ImGui\Source\ThirdParty\ImGuiLibrary\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealImgGui">
+      <UniqueIdentifier>{52CF7E7E-230F-3543-921E-75643E82CDE7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealImgGui\UnrealImgGui.Build.cs">
+      <Filter>Source\UnrealImgGui</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealImgGui\UnrealImgGui.cpp">
+      <Filter>Source\UnrealImgGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealImgGui\UnrealImgGui.h">
+      <Filter>Source\UnrealImgGui</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealImgGui\Private">
+      <UniqueIdentifier>{E7D42024-CD8A-3D51-AE3F-4C4219FC6F6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealImgGui\Private\ImGuiActor.cpp">
+      <Filter>Source\UnrealImgGui\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealImgGui\Private\Test.cpp">
+      <Filter>Source\UnrealImgGui\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealImgGui\Public">
+      <UniqueIdentifier>{DC59EE2B-479D-349E-8CBB-4E82DA54A7D4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealImgGui\Public\ImGuiActor.h">
+      <Filter>Source\UnrealImgGui\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealImgGui\Public\Test.h">
+      <Filter>Source\UnrealImgGui\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
